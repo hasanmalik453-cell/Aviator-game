@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#0b1220;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.container{
+    width:900px;
+    max-width:95%;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+    color:#00ff99;
+}
+
+.game-area{
+    height:400px;
+    background:#111827;
+    border:2px solid #00ff99;
+    border-radius:20px;
+    position:relative;
+    overflow:hidden;
+}
+
+#multiplier{
+    font-size:70px;
+    font-weight:bold;
+    text-align:center;
+    padding-top:30px;
+    color:#00ff99;
+}
+
+.plane{
+    position:absolute;
+    font-size:60px;
+    left:30px;
+    bottom:40px;
+    transition:all .1s linear;
+}
+
+.controls{
+    margin-top:25px;
+    display:flex;
+    justify-content:center;
+    gap:15px;
+}
+
+input{
+    width:120px;
+    padding:12px;
+    font-size:18px;
+    border:none;
+    border-radius:8px;
+}
+
+button{
+    padding:12px 25px;
+    font-size:18px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+#betBtn{
+    background:#00c853;
+    color:white;
+}
+
+#cashBtn{
+    background:#ff9800;
+    color:white;
+}
+
+.history{
+    margin-top:30px;
+    background:#111827;
+    padding:20px;
+    border-radius:15px;
+}
+
+#historyList{
+    margin-top:10px;
+    color:#00ff99;
+    font-size:20px;
+}
